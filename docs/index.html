@@ -16,7 +16,7 @@
         <canvas id="unity-canvas" width="960" height="600" tabindex="-1"></canvas>
         <div id="unity-loading-container">
           <div id="unity-loading-bar">
-            <div id="unity-logo"></div>
+            <div id="unity-status">Carregando a cidade… 0%</div>
             <div id="unity-progress-bar-empty">
               <div id="unity-progress-bar-full"></div>
             </div>
@@ -129,10 +129,13 @@
         const loadingContainer = document.querySelector("#unity-loading-container");
         const progressBarFull = document.querySelector("#unity-progress-bar-full");
 
+        const status = document.querySelector("#unity-status");
         createUnityInstance(canvas, config, (progress) => {
+          const percent = Math.round(100 * progress);
           if (progress < 1) {
-            loadingContainer.style.display = "block";
-            progressBarFull.style.width = 100 * progress + "%";
+            loadingContainer.style.display = "flex";
+            progressBarFull.style.width = percent + "%";
+            status.textContent = "Carregando a cidade… " + percent + "%";
           } else {
             loadingContainer.style.display = "none";
           }
@@ -142,7 +145,8 @@
                 };
 
               }).catch((message) => {
-                alert(message);
+                loadingContainer.style.display = "flex";
+                status.textContent = "O jogo não abriu neste computador. Use um PC com placa de vídeo. " + message;
               });
             };
 
