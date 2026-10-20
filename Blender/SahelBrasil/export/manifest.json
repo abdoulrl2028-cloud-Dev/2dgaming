@@ -1,0 +1,75 @@
+{
+  "materials": {
+    "SM_HutRound": [
+      "M_Laterite",
+      "M_Thatch",
+      "M_Wood"
+    ],
+    "SM_HouseBanco": [
+      "M_Laterite",
+      "M_Wood"
+    ],
+    "SM_Granary": [
+      "M_Laterite",
+      "M_Thatch",
+      "M_Wood",
+      "M_Stone"
+    ],
+    "SM_Well": [
+      "M_Stone",
+      "M_Wood"
+    ],
+    "SM_MarketStall": [
+      "M_Wood",
+      "M_Awning",
+      "M_Laterite"
+    ],
+    "SM_Acacia": [
+      "M_Wood",
+      "M_Leaf"
+    ],
+    "SM_Baobab": [
+      "M_Wood",
+      "M_Leaf"
+    ],
+    "SM_RoadSegment": [
+      "M_Road"
+    ],
+    "SM_CompoundWall": [
+      "M_Laterite"
+    ],
+    "SM_ClayPot": [
+      "M_Laterite"
+    ],
+    "SM_Rock": [
+      "M_Stone"
+    ],
+    "SM_GrassTuft": [
+      "M_DryGrass"
+    ],
+    "SK_Explorer": [
+      "M_Skin",
+      "M_ClothOchre",
+      "M_ClothDark",
+      "M_Hair",
+      "M_Leather",
+      "M_Sandal",
+      "M_Eye"
+    ]
+  },
+  "files": [
+    "SM_HutRound.fbx",
+    "SM_HouseBanco.fbx",
+    "SM_Granary.fbx",
+    "SM_Well.fbx",
+    "SM_MarketStall.fbx",
+    "SM_Acacia.fbx",
+    "SM_Baobab.fbx",
+    "SM_RoadSegment.fbx",
+    "SM_CompoundWall.fbx",
+    "SM_ClayPot.fbx",
+    "SM_Rock.fbx",
+    "SM_GrassTuft.fbx",
+    "SK_Explorer.fbx"
+  ]
+}

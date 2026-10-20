@@ -1,0 +1,24 @@
+City Pack setup 2026-10-03 22:22:33Z
+Pipeline: Built-in. Unity 6000.6.0f1
+Original POLYGON city pack files were not moved or deleted.
+Prefabs found: 234
+Building prefabs selected: 10
+Buildings placed: 8
+Street prefab: Street 4 16M prefab
+Street half width: 8,00
+City size: (80.32, 40.79, 126.21)
+Street lights: 10
+Window renderers: 19
+Sidewalk samples: 48
+Glass material swaps: 1
+Window emission copies: 2
+No normal, metallic or occlusion maps exist in the City Pack. Smoothness and metal are driven per renderer without editing the original materials.
+Lighting presets: Day, Sunset, Night.
+Reflection probe: realtime, via scripting, 128.
+Light probes placed. Bake them from Tools only if you need indirect GI. Realtime sun already lights the scene.
+Cinemachine brain added to Cam_Cinematic. The playing sequence is still CityCinematicDirector so the shot stays smooth if the Cinemachine 6 API differs.
+Cinematic cameras: overview, street, building, low, follow, main.
+Sequence: wide city, push in, street, low angle, facade, point of interest.
+NavMesh: baked from physics colliders.
+Occlusion culling: baked.
+GPU instancing enabled on 0 original materials. Colors were not changed.

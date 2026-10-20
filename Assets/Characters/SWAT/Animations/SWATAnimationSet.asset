@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbb4103cee14582caf90c2fbe8cc843, type: 3}
+  m_Name: SWATAnimationSet
+  m_EditorClassIdentifier: Assembly-CSharp::CityPack.Characters.SWATAnimationSet
+  idle: {fileID: 0}
+  walk: {fileID: 0}
+  run: {fileID: 0}
+  sprint: {fileID: 0}
+  crouch: {fileID: 0}
+  crouchWalk: {fileID: 0}
+  jump: {fileID: 0}
+  fall: {fileID: 0}
+  land: {fileID: 0}
+  aim: {fileID: 0}
+  shoot: {fileID: 0}
+  reload: {fileID: 0}
+  hit: {fileID: 0}
+  death: {fileID: 0}
+  turnLeft: {fileID: 0}
+  turnRight: {fileID: 0}
+  melee: {fileID: 0}
+  sourceMixamo: {fileID: -4791504522942941401, guid: 78afcc3820a2ccd53a65fe9e82f0c475, type: 3}
